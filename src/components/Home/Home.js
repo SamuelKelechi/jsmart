@@ -4,6 +4,13 @@ import Slider from './Slider/Slider'
 const Home = () => {
   return (
     <>
+        <br/>
+        <br/>
+
+        <br/>
+
+        <br/>
+
         <Slider />
     </>
   )
