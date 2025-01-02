@@ -1,0 +1,47 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 90vh; /* Full-screen carousel */
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-slide {
+    flex: 0 0 100%; /* Each slide takes up 100% of the viewport width */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  }
+  
+  /* Navigation Controls */
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 0.5rem;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    user-select: none;
+  }
+  
+  .carousel-control.prev {
+    left: 10px;
+  }
+  
+  .carousel-control.next {
+    right: 10px;
+  }
+  
+  .carousel-control:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }

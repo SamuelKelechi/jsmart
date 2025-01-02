@@ -1,0 +1,59 @@
+    /* for desktop */
+    .whatsapp_float {
+        position: fixed;
+        width: 140px;
+        height: 40px;
+        bottom: 40px;
+        right: 0px;
+        text-align: center;
+        z-index: 600;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .whatsapp_img{
+        width: 50px;
+    }
+
+    .Whatsapp_App{
+        font-size: 12px;
+        text-decoration: none;
+        color: black;
+        height: 28px;
+        width: 80px;
+        background-color: #5bdaa5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    /* for mobile */
+    @media screen and (max-width: 767px) {
+
+        .whatsapp_float {
+            width: 100px;
+            bottom: 20px;
+            right: 0;
+            font-size: 22px;
+            justify-content: space-around;
+        }
+
+        .whatsapp_img{
+            width: 35px;
+        }
+
+        .Whatsapp_App{
+            font-size: 10px;
+            width: 70px;
+        }
+    }
+
+        @media screen and (max-width: 425px) {
+
+        .whatsapp_float {
+            bottom: 35px;   
+        }
+    }
