@@ -55,7 +55,10 @@
         font-size: 18px;
     }
     .Footer-Logo{
-        width: 100px;
+        width: 150px;
+    }
+    .Footer-Container {
+        padding: 20px 0 0 0;
     }
 }
 
