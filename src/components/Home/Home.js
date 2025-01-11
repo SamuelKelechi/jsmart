@@ -1,5 +1,6 @@
 import React from 'react'
 import Slider from './Slider/Slider'
+import Welcome from './Welcome/Welcome'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         <br/>
 
         <Slider />
+        <Welcome />
     </>
   )
 }

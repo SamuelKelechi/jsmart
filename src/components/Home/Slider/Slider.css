@@ -39,6 +39,7 @@
   padding: 10px 20px;
   border-radius: 5px;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.8); 
 }
 
 .carousel-control {
@@ -59,4 +60,10 @@
 
 .carousel-control.next {
   right: 10px;
+}
+
+@media screen and (max-width: 650px){
+  .carousel-text{
+    width: 100%;
+  }
 }

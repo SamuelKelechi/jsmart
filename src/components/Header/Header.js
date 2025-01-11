@@ -71,7 +71,7 @@ width: 100px;
 margin-top: 15px;
 
 @media screen and (max-width: 425px){
-    width: 55px;
+    width: 80px;
 }
 `
 const Navs = styled.div`

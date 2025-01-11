@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 import "./Slider.css";
 import Slide1 from "../../Assets/slide1.jpeg"
-import Slide3 from "../../Assets/slide2.png"
 import Slide2 from "../../Assets/slide3.jpg"
+import Slide3 from "../../Assets/8.jpeg"
 
 
 const Slider = () => {
   const slides = [
     {
       image: Slide1,
-      text: "Cocktails, Whisky, and Chill",
+      text: "J. SMART LOUNGE",
     },
     {
       image: Slide2,
