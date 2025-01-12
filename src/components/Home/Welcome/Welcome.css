@@ -31,6 +31,7 @@
 .Welcome_Center_Contain h2{
     font-size: 32px;
     font-family: cursive;
+    margin-bottom: 10px;
 }
 
 .Welcome_Center_Contain p{
@@ -41,7 +42,7 @@
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: bolder;
     border: 1px solid #f58634;
     border-radius: 15px;
     text-decoration: none;
@@ -50,6 +51,7 @@
     transition: all 0.3s ease;
     color: black;
     margin-bottom: 20px;
+    margin-top: 10px;
   }
   
   .read-more-btn:hover {
