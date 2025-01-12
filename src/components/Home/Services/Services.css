@@ -1,0 +1,116 @@
+.Service_Container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.Service_Container_Wrapper{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Service_Contain1{
+    width: 32%;
+    height: 450px;
+    border-radius: 15px;
+    border: 0.5px solid rgb(223, 221, 221);
+    background-image: url(../../Assets/Night.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Service_Contain1_Hold{
+    width: 100%;
+    text-align: center;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 0 0 15px 15px;
+    transition: height 0.7s ease;
+    overflow: hidden; 
+}
+.Service_Contain1_Hold:hover {
+    height: 100%;
+    border-radius: 15px;
+  }
+
+.Service_Contain2{
+    width: 32%;
+    height: 450px;
+    border-radius: 15px;
+    border: 0.5px solid rgb(223, 221, 221);
+    background-image: url(../../Assets/drinks.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Service_Contain3{
+    width: 32%;
+    height: 450px;
+    border-radius: 15px;
+    border: 0.5px solid rgb(223, 221, 221);
+    background-image: url(../../Assets/2.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Service_Header{
+    font-family: 'Oswald', sans-serif;
+}
+.Service_Text{
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+}
+.order-button {
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 12px 25px;
+    color: black; 
+    font-size: 16px; 
+    border: 1px solid #f58634;
+    border-radius: 30px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effects */
+  }
+
+  .order-button:hover {
+    background-color: #2d3032;
+    transform: scale(1.05);
+    color: white;
+  }
+
+@media screen and (max-width: 650px){
+    .Service_Container_Wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Service_Contain1{
+        width: 100%;
+        height: 350px;
+        margin-bottom: 20px;
+    }
+    .Service_Contain2{
+        width: 100%;
+        height: 350px;
+        margin-bottom: 20px;
+    }
+    .Service_Contain3{
+        width: 100%;
+        height: 350px;
+        margin-bottom: 20px;
+    }
+    .order-button{
+        padding: 8px 15px;
+    }
+  
+      
+}

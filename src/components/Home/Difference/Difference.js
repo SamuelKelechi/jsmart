@@ -10,7 +10,7 @@ const Difference = () => {
             <h2 className='Difference_Typing'>
                 <Typewriter
                     options={{
-                      strings: ['We are here for the vibe', 'The Beats', 'And the thrill'],
+                      strings: ['We are here for the vibes', 'The Beats', 'And the thrills'],
                       autoStart: true,
                       loop: true,
                     }}

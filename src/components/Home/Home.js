@@ -3,6 +3,7 @@ import Slider from './Slider/Slider'
 import Welcome from './Welcome/Welcome'
 import Difference from './Difference/Difference'
 import Services from './Services/Services'
+import Weekly from './Weekly/Weekly'
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         <Welcome />
         <Difference />
         <Services />
+        <Weekly />
     </>
   )
 }
