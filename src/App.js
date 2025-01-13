@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Events from './components/Events/Events';
 import Menu from './components/Menu/Menu';
+import ScrollToTop from './ScrollToTop';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
   return (
     <>
     <Router>
+      <ScrollToTop>
       {done ? (
         <>
           <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
@@ -40,6 +42,7 @@ function App() {
       ) : (
         <Loader />
       )}
+      </ScrollToTop>
     </Router>
     </>
   );
