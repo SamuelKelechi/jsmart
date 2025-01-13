@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Events from './components/Events/Events';
 import Menu from './components/Menu/Menu';
 import ScrollToTop from './ScrollToTop';
+import Contact from './components/Contact/Contact';
 
 
 function App() {
@@ -23,7 +24,6 @@ function App() {
   }, []);
 
 
-
   return (
     <>
     <Router>
@@ -35,6 +35,7 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/events' element={<Events />} />
             <Route path='/menu' element={<Menu />} />
+            <Route path='/contact' element={<Contact />} />
           </Routes>
           <Footer />
           <WhatsApp />

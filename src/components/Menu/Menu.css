@@ -26,3 +26,8 @@
     font-family: 'Playfair Display', serif; 
     font-style: italic;
 }
+.Menu_Container_Wrapper{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
