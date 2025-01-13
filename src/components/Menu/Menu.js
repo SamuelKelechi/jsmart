@@ -256,7 +256,7 @@ const Menu = () => {
                       <span>{item.name}</span>
                       <span>
                         <Order
-                            href="https://wa.me/234"
+                            href="https://wa.me/2348030520991"
                             text="I would like to order for "
                             target="_blank"
                             rel="noopener noreferrer"

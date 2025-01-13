@@ -77,14 +77,14 @@ const Contact = () => {
                             <div style={{marginRight:"10px"}}><img src={Icon1} height='15px' alt='Email' /></div>
                             <div style={{marginTop:'-22px'}}>
                                 <h3>Chat with us</h3>
-                                <p>.........@gmail.com</p>
+                                <p>jsmartentertainmentlimited@gmail.com</p>
                             </div>
                         </ContHold>
                         <ContHold>
                             <div style={{marginRight:"10px"}}><img src={Icon2} height='15px' alt='Email' /></div>
                             <div style={{marginTop:'-22px'}}>
                                 <h3>Phone</h3>
-                                <p>+234 </p>
+                                <p>+234 8030520991</p>
                             </div>
                         </ContHold>
                         <ContHold>
