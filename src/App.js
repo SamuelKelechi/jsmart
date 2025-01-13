@@ -4,11 +4,14 @@ import WhatsApp from "./components/Whatsapp/WhatsApp";
 import Home from './components/Home/Home';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Events from './components/Events/Events';
+import Menu from './components/Menu/Menu';
 
 
 function App() {
   const [done, setDone] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -25,8 +28,12 @@ function App() {
     <Router>
       {done ? (
         <>
-          <Header />
-          <Home />
+          <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/events' element={<Events />} />
+            <Route path='/menu' element={<Menu />} />
+          </Routes>
           <Footer />
           <WhatsApp />
         </>
