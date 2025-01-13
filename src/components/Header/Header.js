@@ -19,7 +19,7 @@ const Header = ({ menuOpen, setMenuOpen }) => {
                 <NavLinks onClick={() => setMenuOpen(false)}>ABOUT US</NavLinks>
                 <NavLinks to='/menu' onClick={() => setMenuOpen(false)}>MENU</NavLinks>
                 <NavLinks to='/events' onClick={() => setMenuOpen(false)}>EVENTS</NavLinks>
-                <NavLinks onClick={() => setMenuOpen(false)}>CONTACT US</NavLinks>
+                <NavLinks to='/contact' onClick={() => setMenuOpen(false)}>CONTACT US</NavLinks>
                 
             </Navs>
             <MobileIcon onClick={handleClick}>
