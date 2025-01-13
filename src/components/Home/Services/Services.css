@@ -37,7 +37,10 @@
 .Service_Contain1_Hold:hover {
     height: 100%;
     border-radius: 15px;
-  }
+}
+.Service_Header{
+    font-family: 'Poppins', sans-serif;
+}
 
 .Service_Contain2{
     width: 32%;
@@ -110,7 +113,9 @@
     }
     .order-button{
         padding: 8px 15px;
+        margin-top: 0;
     }
-  
-      
+    .Service_Header{
+        margin-bottom: 10px;
+    }  
 }

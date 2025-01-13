@@ -55,16 +55,16 @@
 }
 
 .carousel-control.prev {
-  left: 10px;
+  left: 5px;
 }
 
 .carousel-control.next {
-  right: 10px;
+  right: 5px;
 }
 
 @media screen and (max-width: 650px){
   .carousel-text{
-    width: 100%;
+    width: 98%;
   }
   .carousel-slide {
     height: 80vh;

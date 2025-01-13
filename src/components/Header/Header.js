@@ -1,32 +1,29 @@
 import React, {useState} from 'react';
-import { Button } from '@mui/material';
 import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import Logo from '../Assets/logo1.png'
 
 
-const Header = () => {
-    const [click, setClick] = useState(false);
+const Header = ({ menuOpen, setMenuOpen }) => {
 
-    const handleClick = () => setClick(!click);
+    const handleClick = () => setMenuOpen(!menuOpen);
+
 
   return (
     <HeaderContainer>
         <HeaderWrapper>
             <NavLinks to='/' ><LogoImg src={Logo}/></NavLinks>
-            <Navs onClick={handleClick} click={click}>
-                <NavLinks>HOME</NavLinks>
-                <NavLinks>ABOUT US</NavLinks>
-                <NavLinks>MENU</NavLinks>
-                <NavLinks>EVENTS</NavLinks>
-                <NavLinks>CONTACT US</NavLinks>
+            <Navs click={menuOpen} onClick={handleClick}>
+                <NavLinks to='/' onClick={() => setMenuOpen(false)}>HOME</NavLinks>
+                <NavLinks onClick={() => setMenuOpen(false)}>ABOUT US</NavLinks>
+                <NavLinks to='/menu' onClick={() => setMenuOpen(false)}>MENU</NavLinks>
+                <NavLinks to='/events' onClick={() => setMenuOpen(false)}>EVENTS</NavLinks>
+                <NavLinks onClick={() => setMenuOpen(false)}>CONTACT US</NavLinks>
                 
-                {/* <div></div>
-                <NavLinks><Button variant="contained" color="success" style={{width:'150px'}} >Donate</Button></NavLinks> */}
             </Navs>
             <MobileIcon onClick={handleClick}>
-                    {click ? <FaTimes /> :  <FaBars />}
+                    {menuOpen ? <FaTimes /> :  <FaBars />}
             </MobileIcon>
         </HeaderWrapper> 
     </HeaderContainer>
@@ -45,12 +42,6 @@ z-index: 999;
 position: fixed;
 color: white;
 top: 0;
-background: white;
-${'' /* background: linear-gradient(to right bottom,
-    rgba(255, 255, 255,0.7),
-    rgba(255, 255, 255, 0.3)
-        ); */}
-
 background-color: rgba(9,5,5,0.8);
 backdrop-filter: blur(1rem);
 
@@ -125,8 +116,9 @@ const NavLinks = styled(Link)`
 const MobileIcon = styled.div`
 font-size: 30px;
 display: none;
+color: white;
 
 @media screen and (max-width: 860px){
-display: block                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ;
+display: flex                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ;
 }
 `

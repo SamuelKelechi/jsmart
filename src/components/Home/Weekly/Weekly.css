@@ -1,0 +1,11 @@
+.Weekly_Container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.Weekly_Header{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
