@@ -1,6 +1,7 @@
 import React from 'react'
 import './Difference.css'
 import Typewriter from 'typewriter-effect';
+import { Link } from 'react-router-dom';
 
 const Difference = () => {
   return (
@@ -16,7 +17,7 @@ const Difference = () => {
                     }}
                   />
             </h2>
-            <button className='read-more-btn' style={{marginTop:'30px'}}>DISCOVER MORE</button>
+            <Link to='/gallery' className='read-more-btn' style={{marginTop:'30px', color:'white'}}>DISCOVER MORE</Link>
         </div>
     </div>
   )

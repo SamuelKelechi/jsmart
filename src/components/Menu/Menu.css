@@ -8,9 +8,9 @@
 .Menu_Hero{
     width: 100%;
     text-align: center;
-    height: 400px;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../Assets/event.jpg);
-    background-position: center;
+    height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(../Assets/menu.jpeg);
+    background-position: top;
     background-size: cover;
     color: white;
     display: flex;
@@ -30,4 +30,14 @@
     width: 90%;
     display: flex;
     justify-content: center;
+}
+@media screen and (max-width: 470px){
+.Menu_Hero{
+    height: 400px;  
+}
+}
+@media screen and (max-width: 350px){
+.Menu_Container_Wrapper{
+    width: 100%;
+}
 }

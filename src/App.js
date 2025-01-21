@@ -9,6 +9,8 @@ import Events from './components/Events/Events';
 import Menu from './components/Menu/Menu';
 import ScrollToTop from './ScrollToTop';
 import Contact from './components/Contact/Contact';
+import About from './components/About/About';
+import Gallery from './components/Gallery/Gallery';
 
 
 function App() {
@@ -36,6 +38,8 @@ function App() {
             <Route path='/events' element={<Events />} />
             <Route path='/menu' element={<Menu />} />
             <Route path='/contact' element={<Contact />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/gallery' element={<Gallery />} />
           </Routes>
           <Footer />
           <WhatsApp />
