@@ -24,14 +24,14 @@
 
 .Social-Connect-Hold{
     display: flex;
-    width: 280px;
+    width: 300px;
     justify-content: space-between;
     align-items: center;
     font-family: poppins;
 }
 
 .Social-Connect{
-    width: 180px;
+    width: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;

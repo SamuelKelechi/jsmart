@@ -8,21 +8,21 @@ const Menu = () => {
 
 
   const foodMenu = [
-    { id: 1, name: "Chicken vegetable with Ugba", price: "$10" },
-    { id: 2, name: "Vegetable snail with Ugba", price: "$15" },
-    { id: 3, name: "Catfish pepper soup", price: "$12" },
-    { id: 4, name: "Pepper Meat", price: "$12" },
-    { id: 5, name: "Pepper Turkey", price: "$12" },
-    { id: 6, name: "Spaghetti with Turkey", price: "$12" },
-    { id: 7, name: "Yam & Egg sauce", price: "$12" },
-    { id: 8, name: "Barbeque (catfish&croka)", price: "$12" },
-    { id: 9, name: "Shawarma", price: "$12" },
-    { id: 10, name: "Smoody", price: "$12" },
-    { id: 11, name: "Isi Ewu", price: "$12" },
-    { id: 12, name: "Nkwobi", price: "$12" },
-    { id: 13, name: "Grilled Chicken", price: "$12" },
-    { id: 14, name: "Roasted fish", price: "$12" },
-    { id: 15, name: "Stockfish Vegetable with Ugba", price: "$12" },
+    { id: 1, name: "Chicken Vegetable with Ugba", price: "" },
+    { id: 2, name: "Vegetable Snail with Ugba", price: "" },
+    { id: 3, name: "Catfish Pepper soup", price: "" },
+    { id: 4, name: "Pepper Meat", price: "" },
+    { id: 5, name: "Pepper Turkey", price: "" },
+    { id: 6, name: "Spaghetti with Turkey", price: "" },
+    { id: 7, name: "Yam & Egg Sauce", price: "" },
+    { id: 8, name: "Barbeque (catfish&croka)", price: "" },
+    { id: 9, name: "Shawarma", price: "" },
+    { id: 10, name: "Smoody", price: "" },
+    { id: 11, name: "Isi Ewu", price: "" },
+    { id: 12, name: "Nkwobi", price: "" },
+    { id: 13, name: "Grilled Chicken", price: "" },
+    { id: 14, name: "Roasted Fish", price: "" },
+    { id: 15, name: "Stockfish Vegetable with Ugba", price: "" },
 
   ];
 
@@ -344,6 +344,12 @@ const MenuItem = styled.div`
 
   &:hover {
     background-color: #f0f0f0;
+  }
+
+  @media screen and (max-width: 350px){
+    span {
+    font-size: 12px;
+  }
   }
 `;
 const MenuHeader = styled.h4`

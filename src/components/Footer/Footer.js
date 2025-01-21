@@ -1,10 +1,9 @@
 import React from 'react'
 import './Footer.css'
 import Logo from '../Assets/logo1.png'
-import Facebook from "../Assets/facebook.png";
-import Instagram from "../Assets/instagram.png";
-import Twitter from "../Assets/twitter.png";
-import Youtube from "../Assets/youtube.png";
+import { FaInstagramSquare, FaFacebook, FaTwitterSquare, FaYoutube } from "react-icons/fa";
+import { AiFillTikTok } from "react-icons/ai";
+import { FaSquareThreads } from "react-icons/fa6";
 
 let date = new Date().getFullYear();
 
@@ -15,21 +14,29 @@ const Footer = () => {
             <img src={Logo} className='Footer-Logo'/>
             <div className='Social-Connect-Hold'> <b>FOLLOW US</b> 
                 <span className='Social-Connect'>
-                                    <a href='' target='_blank'>  
-                                        <img className='Social-Icon-Each2' src={Instagram} alt='Instagram' />
-                                    </a> 
+                    <a href='https://www.instagram.com/j.smart_lounge/profilecard/?igsh=MWhqcnVyZ2V3NTh1aw==' target='_blank'>  
+                        <FaInstagramSquare color='white' size={20}/>
+                    </a> 
 
-                                    <a href='' target='_blank'> 
-                                        <img className='Social-Icon-Each1' src={Facebook} alt='Facebook' />
-                                    </a>
+                    <a href='https://www.facebook.com/share/1F1BTPZ4T1/' target='_blank'> 
+                        <FaFacebook color='white' size={20}/>
+                    </a>
 
-                                    <a href='' target='_blank'>  
-                                        <img className='Social-Icon-Each3' src={Twitter} alt='Twitter' />
-                                    </a> 
+                    <a href='' target='_blank'>  
+                        <FaTwitterSquare color='white' size={20}/>
+                    </a> 
 
-                                    <a href='' target='_blank'>  
-                                        <img className='Social-Icon-Each4'  src={Youtube} alt='Youtube' />
-                                    </a> 
+                    <a href='https://www.tiktok.com/@j.smart_lounge?_t=ZM-8t2XS182u9e&_r=1' target='_blank'>  
+                        <AiFillTikTok color='white' size={20}/>
+                    </a> 
+
+                    <a href='' target='_blank'>  
+                        <FaSquareThreads color='white' size={20}/>
+                    </a> 
+
+                    <a href='' target='_blank'>  
+                        <FaYoutube color='white' size={25}/>
+                    </a> 
                 </span> 
             </div>
         </div>

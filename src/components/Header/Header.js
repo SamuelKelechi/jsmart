@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import Logo from '../Assets/logo1.png'
 
-
 const Header = ({ menuOpen, setMenuOpen }) => {
 
     const handleClick = () => setMenuOpen(!menuOpen);
@@ -16,7 +15,7 @@ const Header = ({ menuOpen, setMenuOpen }) => {
             <NavLinks to='/' ><LogoImg src={Logo}/></NavLinks>
             <Navs click={menuOpen} onClick={handleClick}>
                 <NavLinks to='/' onClick={() => setMenuOpen(false)}>HOME</NavLinks>
-                <NavLinks onClick={() => setMenuOpen(false)}>ABOUT US</NavLinks>
+                <NavLinks to='/about' onClick={() => setMenuOpen(false)}>ABOUT US</NavLinks>
                 <NavLinks to='/menu' onClick={() => setMenuOpen(false)}>MENU</NavLinks>
                 <NavLinks to='/events' onClick={() => setMenuOpen(false)}>EVENTS</NavLinks>
                 <NavLinks to='/contact' onClick={() => setMenuOpen(false)}>CONTACT US</NavLinks>
