@@ -21,6 +21,12 @@
 .About_Header{
     font-family: 'Merriweather', serif;
 }
+.About_Content{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 
 @media screen and (max-width: 470px){
