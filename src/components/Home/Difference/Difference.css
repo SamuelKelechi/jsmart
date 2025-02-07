@@ -48,11 +48,19 @@
     text-align: center;
     color: black;
     background-color: rgba(233, 233, 233, 0.8);
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 h1{
     margin: 0;
+}
+
+.YouTube_Holder{
+    width: 750px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 768px){
@@ -66,6 +74,9 @@ h1{
 
     .Mandate-Wrapper > p {
         font-size: 18px;
+    }
+    .YouTube_Holder{
+        width: 98%
     }
 }
 

@@ -14,7 +14,7 @@ const Footer = () => {
             <img src={Logo} className='Footer-Logo'/>
             <div className='Social-Connect-Hold'> <b>FOLLOW US</b> 
                 <span className='Social-Connect'>
-                    <a href='https://www.instagram.com/j.smart_lounge/profilecard/?igsh=MWhqcnVyZ2V3NTh1aw==' target='_blank'>  
+                    <a href='https://www.instagram.com/jsmart_lounge?igsh=MWhqcnVyZ2V3NTh1aw==' target='_blank'>  
                         <FaInstagramSquare color='white' size={20}/>
                     </a> 
 
@@ -22,7 +22,7 @@ const Footer = () => {
                         <FaFacebook color='white' size={20}/>
                     </a>
 
-                    <a href='' target='_blank'>  
+                    <a href='https://x.com/jsmartente79561?t=GMUxua-1rKR5Cfs04zDmUQ&s=09' target='_blank'>  
                         <FaTwitterSquare color='white' size={20}/>
                     </a> 
 
@@ -30,11 +30,11 @@ const Footer = () => {
                         <AiFillTikTok color='white' size={20}/>
                     </a> 
 
-                    <a href='' target='_blank'>  
+                    <a href='https://www.threads.net/@j.smart_lounge' target='_blank'>  
                         <FaSquareThreads color='white' size={20}/>
                     </a> 
 
-                    <a href='' target='_blank'>  
+                    <a href='https://www.youtube.com/@j.smart_lounge' target='_blank'>  
                         <FaYoutube color='white' size={25}/>
                     </a> 
                 </span> 
