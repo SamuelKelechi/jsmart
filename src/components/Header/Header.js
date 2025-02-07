@@ -95,6 +95,7 @@ const NavLinks = styled(Link)`
         border-bottom: 2px solid transparent; 
         display: flex;
         justify-content: center;
+        cursor: pointer;
 
     &:hover{
         border-bottom: 2px solid white; 

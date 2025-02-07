@@ -8,6 +8,11 @@ const Difference = () => {
     <div className='Mandate-Container'>
         <div className='Mandate-Wrapper'>
             <h1 className='Mandate-Header'>OUR PREMIUM LOUNGE MAKES A DIFFERENCE</h1>
+            <div className="YouTube_Holder">
+                <iframe width="100%" height="350" style={{borderRadius:'10px'}}
+                src="https://www.youtube.com/embed/WY8vmwRgqGI" frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
             <h2 className='Difference_Typing'>
                 <Typewriter
                     options={{
